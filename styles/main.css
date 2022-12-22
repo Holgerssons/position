@@ -1,0 +1,48 @@
+.container{
+  width: 1280px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: content-box;
+}
+
+
+
+.main_block{
+  margin: 0 auto;
+  width: 700px;
+  height: 500px;
+  border: 2px solid;
+  border-color: blue;
+  position: relative;
+}
+
+.block{
+  width: 200px;
+  height: 100px;
+  background-color: rgb(255, 234, 0);
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+}
+
+@media only screen and (max-width: 767px){
+.block{
+  width: 100px;
+  height: 100%;
+  background-color: rgb(255, 234, 0);
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+}
+  
+@media only screen and (max-width: 478px){
+.block{
+  width: 100%;
+  height: 100px;
+  background-color: rgb(255, 234, 0);
+  position: absolute;
+  bottom: 0px;
+}
+}
